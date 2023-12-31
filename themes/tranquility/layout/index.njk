@@ -35,6 +35,7 @@
       </div>
     </div>
   </div>
+  {% if theme.about.enable %}
   <div class="about">
     <div class="about-photo"
          style="background-image: url({{ url_for(theme.index.photo) }})"></div>
@@ -58,6 +59,7 @@
       </div>
     </div>
   </div>
+  {% endif %}
   {% if theme.timeline and theme.timeline.enable %}
     <div class="timeline">
       <div class="timeline-head">

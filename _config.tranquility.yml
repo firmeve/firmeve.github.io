@@ -1,6 +1,6 @@
 slogan: “Developer”
 #email: example@email.com
-logo: "/images/logo/48-48.png"
+logo: "/images/logo/60-60.png"
 
 mathjax: true # 加载 LateX 数学公式库
 
@@ -17,7 +17,7 @@ subpage: # 开启“子页”功能，详见 README
 #      path: feat # 若不设置则默认使用 name
       title: Developer # 菜单名，如 开发者
       icon: /images/icon/icon-code.svg # 图标的路径
-      description: 主题的功能测试 # 描述
+#      description: 主题的功能测试 # 描述
 #    - name: baseTest # 文章的分类（category）名，如 developer
 #      path: base # 若不设置则默认使用 name
 #      title: 基础测试 # 菜单名，如 开发者
@@ -29,8 +29,9 @@ index: # 配置首页个性化内容
 #  poem:
 #    - 君不见高堂明镜悲白发
 #    - 朝如青丝暮成雪
-  photo: /images/about.jpg
+#  photo: /images/about.jpg
   about:
+    enable: false
     title: About
     text:
       - A simple man
@@ -39,7 +40,7 @@ index: # 配置首页个性化内容
 foot:
   title:
 #    - "知行合一"
-    - "Mind and Hand"
+#    - "Mind and Hand"
 #    - "天涯若比邻"
 
 #links: # 朋友
@@ -62,7 +63,7 @@ social:
 reward: # 赞赏
   enable: true
   face: /assets/author-face.jpg # 头像图片
-  paycode: /assets/wx.jpg # 支付码图片
+  paycode: /assets/wx.png # 支付码图片
   text: “给作者倒杯卡布奇诺”
   btnText: 喜欢作者
 
