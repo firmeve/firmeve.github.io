@@ -46,6 +46,8 @@ func Send(key string, value any) {
 
 ## Fixed
 
+所有的网络请求，在发送前必须优先存储，如果请求失败进行删除，这样就可以避免此类问题。
+
 ```go
 var store sync.Map
 go func(ctx context.Context) {
@@ -76,4 +78,3 @@ func Send(key string, value any) {
 }
 ```
 
-所有的网络请求，在发送前必须优先存储，如果请求失败进行删除，这样就可以避免此类问题。
