@@ -1,14 +1,16 @@
 <div class="like-author">
   <input type="checkbox" id="likeCode" />
-  <div class="author-face">
+  <div > <!--class="author-face"-->
+  {% if theme.reward.face %}
     <img height="100px"
          width="100px"
          id="front-face"
          alt="author face"
          src="{{ url_for(theme.reward.face) }}" />
-    <img height="100px"
-         width="100px"
-         id="back-face"
+     {% endif %}
+    <img height="200px"
+         width="200px"
+         id=""
          alt="like code"
          src="{{ url_for(theme.reward.paycode) }}" />
   </div>
