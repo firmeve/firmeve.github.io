@@ -3,6 +3,7 @@ title: websocket use of closed network connection
 date: 2024-01-18 20:05:06
 tags:
   - websocket
+category: developer
 ---
 最近在 dev 环境遇到大量的 "use of closed network connection" 错误，最开始分析是异常连接断开，抓包分析，后来才发现是触发了异常 case 每分钟 close client。
 
